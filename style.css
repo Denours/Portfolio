@@ -891,7 +891,7 @@ nav.stuck {
   background: var(--bg2);
   cursor: none;
   position: relative;
-  /* overflow: hidden; */
+  overflow: hidden;
   border-left: 2px solid transparent;
   transition: all background 0.4s;
 }
@@ -939,7 +939,7 @@ nav.stuck {
   color: var(--white2);
   line-height: 1.7;
   margin-top: 0.4rem;
-  max-width: 560px;
+  max-width: 860px;
 }
 .pj-tags {
   display: flex;
