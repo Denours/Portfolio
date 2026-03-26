@@ -83,7 +83,7 @@ skills.forEach((s, i) => {
 const projs = [
   {
     n: "01",
-    title: "CamerTalents",
+    title: "CamerTalents (en cours)",
     featured: true,
     desc: "Application web dédiée à la valorisation et la mise en visibilité des talents camerounais dans divers secteurs d'activité. Une plateforme de découverte et de mise en réseau des compétences locales.",
     tags: ["Vue.js", "TailwindCSS", "Node.js", "MongoDB", "REST API"],
