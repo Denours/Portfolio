@@ -83,7 +83,7 @@ skills.forEach((s, i) => {
 const projs = [
   {
     n: "01",
-    title: "CamerTalents (en cours)",
+    title: "CamerTalents",
     featured: true,
     desc: "Application web dédiée à la valorisation et la mise en visibilité des talents camerounais dans divers secteurs d'activité. Une plateforme de découverte et de mise en réseau des compétences locales.",
     tags: ["Vue.js", "TailwindCSS", "Node.js", "MongoDB", "REST API"],
@@ -212,7 +212,7 @@ async function sendForm(btn) {
       btn.style.opacity = "1";
       btn.style.background = "linear-gradient(135deg,#00c896,#007a5c)";
       showToast(
-        "✅ Message bien reçu ! Denis vous répondra très vite.",
+        "✔️ Message bien reçu ! Denis vous répondra très vite.",
         "success",
       );
 
