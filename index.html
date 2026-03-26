@@ -1,0 +1,374 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Denis Keufack — Développeur Web Frontend</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@200;300;400;500;600&family=Lora:ital,wght@0,400;0,600;1,400;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://unpkg.com/@phosphor-icons/web@2.1.1/src/index.js"
+      defer
+    ></script>
+  </head>
+  <body>
+    <!-- Cursor -->
+
+    <div id="cur-dot"></div>
+    <div id="cur-ring"></div>
+
+    <!-- Aurora -->
+    <div class="aurora">
+      <div class="aurora-blob"></div>
+      <div class="aurora-blob"></div>
+      <div class="aurora-blob"></div>
+    </div>
+    <div class="grid-overlay"></div>
+
+    <!-- NAV -->
+    <nav id="nav">
+      <a href="#hero" class="nav-brand">
+        <div class="brand-mark"><span>DK</span></div>
+        <span class="brand-name">Denis Keufack</span>
+      </a>
+      <ul class="nav-links">
+        <li>
+          <a href="#about"><i class="ph ph-user"></i>À propos</a>
+        </li>
+        <li>
+          <a href="#skills"><i class="ph ph-code"></i>Compétences</a>
+        </li>
+        <li>
+          <a href="#projects"><i class="ph ph-folder-open"></i>Projets</a>
+        </li>
+        <li>
+          <a href="#contact"><i class="ph ph-envelope"></i>Contact</a>
+        </li>
+      </ul>
+      <a href="#contact" class="nav-cta">Hire me</a>
+      <button class="burger" id="burger">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+
+    <!-- Mobile Nav -->
+    <div class="mob-nav" id="mobNav">
+      <button class="mob-close" id="mobClose"><i class="ph ph-x"></i></button>
+      <a href="#about" class="mob-link">À propos</a>
+      <a href="#skills" class="mob-link">Compétences</a>
+      <a href="#projects" class="mob-link">Projets</a>
+      <a href="#contact" class="mob-link">Contact</a>
+    </div>
+
+    <!-- ══ HERO ══ -->
+    <section id="hero">
+      <div class="hero-shape hs1"></div>
+      <div class="hero-shape hs2"></div>
+      <div class="hero-shape hs3"></div>
+
+      <h1 class="hero-title">
+        <span class="t1">Denis</span>
+        <span class="t2">Keufack</span>
+        <span class="t3">Développeur Fullstack</span>
+      </h1>
+      <p class="hero-sub">
+        Je crée des interfaces web
+        <strong>élégantes, performantes et mémorables</strong>. Passionné par
+        chaque pixel et chaque interaction, je donne vie à vos idées numériques.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn-glow"
+          ><span>Voir mes projets</span><i class="ph ph-arrow-right"></i
+        ></a>
+        <a href="#contact" class="btn-ghost"
+          ><i class="ph ph-chat-circle"></i> Discutons</a
+        >
+      </div>
+      <div class="hero-scroll-hint">
+        <div class="scroll-track"><div class="scroll-runner"></div></div>
+        <span class="scroll-text">Défiler</span>
+      </div>
+    </section>
+
+    <div class="hairline"></div>
+
+    <!-- ══ ABOUT ══ -->
+    <section id="about" class="sec sp">
+      <div class="sec-chip rv">
+        <i class="ph ph-user-circle"></i>Qui suis-je
+      </div>
+      <h2 class="sec-h rv d1">
+        Passion &<br /><span class="accent">Précision</span>
+      </h2>
+      <div class="about-layout">
+        <div class="about-card rv d2">
+          <img src="./vesteux.PNG" alt="professionnel" class="ac-avatar"></img>
+          <div class="ac-name">Denis Keufack</div>
+          <div class="ac-role">Développeur Web Fullstack</div>
+          <div class="ac-divider"></div>
+          <div class="ac-info">
+            <div class="info-row"><i class="ph ph-map-pin"></i>Cameroun</div>
+            <div class="info-row">
+              <i class="ph ph-graduation-cap"></i>Développeur Web
+            </div>
+            <div class="info-row">
+              <i class="ph ph-stack"></i>Fullstack orienté Frontend
+            </div>
+            <div class="info-row">
+              <i class="ph ph-github-logo"></i>github.com/Denours
+            </div>
+            <div class="info-row">
+              <i class="ph ph-linkedin-logo"></i>d-keufack
+            </div>
+          </div>
+          <div class="ac-avail">
+            <span class="avail-dot"></span>Disponible maintenant
+          </div>
+        </div>
+        <div class="rv d3">
+          <div class="about-content">
+            <p>
+              Je suis <strong>Denis Keufack</strong>, développeur web passionné
+              basé au <strong>Cameroun</strong>. Mon univers tourne autour de la
+              création d'expériences numériques qui allient
+              <strong>esthétique soignée</strong> et
+              <strong>performance technique</strong>.
+            </p>
+            <p>
+              Spécialisé en <strong>Frontend</strong>, je maîtrise l'écosystème
+              JavaScript moderne avec Vue.js et React, tout en ayant une solide
+              maîtrise du Backend (Node.js, PHP) et des bases de données
+              relationnelles et NoSQL.
+            </p>
+            <p>
+              Je cherche un <strong>stage professionnel</strong> pour mettre mes
+              compétences au service d'une équipe ambitieuse, apprendre sur des
+              projets réels et contribuer à créer de la valeur.
+            </p>
+          </div>
+          <div class="about-kpis rv d4">
+            <div class="kpi">
+              <div class="kpi-n" data-count="17">0</div>
+              <div class="kpi-l">Technologies</div>
+            </div>
+            <div class="kpi">
+              <div class="kpi-n" data-count="3">0</div>
+              <div class="kpi-l">Projets</div>
+            </div>
+            <div class="kpi">
+              <div class="kpi-n" data-count="1">0</div>
+              <div class="kpi-l">Ans d'exp.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="hairline"></div>
+
+    <!-- ══ SKILLS ══ -->
+    <section id="skills" class="sec sp">
+      <div class="sec-chip rv">
+        <i class="ph ph-lightning"></i>Arsenal technique
+      </div>
+      <div class="skills-top">
+        <div>
+          <h2 class="sec-h rv d1">
+            Mes <span class="accent">compétences</span>
+          </h2>
+          <p class="skills-desc rv d2">
+            Du pixel parfait au serveur robuste — un spectre technique complet
+            pour construire des produits web de bout en bout.
+          </p>
+        </div>
+        <div></div>
+      </div>
+      <div class="skills-mosaic" id="skGrid"></div>
+    </section>
+
+    <div class="hairline"></div>
+
+    <!-- ══ PROJECTS ══ -->
+    <section id="projects" class="sec sp">
+      <div class="sec-chip rv">
+        <i class="ph ph-folder-notch-open"></i>Réalisations
+      </div>
+      <h2 class="sec-h rv d1">
+        Projets <span class="accent">sélectionnés</span>
+      </h2>
+      <div class="proj-intro rv d2">
+        <p>
+          Chaque projet est une histoire — une idée transformée en réalité
+          numérique avec soin, rigueur et une touche de créativité.
+        </p>
+      </div>
+      <div class="proj-list" id="projList"></div>
+    </section>
+
+    <div class="hairline"></div>
+
+    <!-- ══ CONTACT ══ -->
+    <section id="contact" class="sec sp">
+      <div class="sec-chip rv">
+        <i class="ph ph-paper-plane-tilt"></i>Travaillons ensemble
+      </div>
+      <div class="contact-layout">
+        <div class="rv d1">
+          <div class="contact-big">
+            <span class="line1">Prenons</span>
+            <span class="line2">Contact.</span>
+          </div>
+          <p class="contact-body">
+            Vous avez un projet, une opportunité de stage ou simplement envie
+            d'échanger sur le web et la tech ? Je suis réactif et ouvert à toute
+            conversation.
+          </p>
+          <div class="contact-channels">
+            <a
+              href="https://www.linkedin.com/in/d-keufack"
+              target="_blank"
+              class="cc"
+            >
+              <div class="cc-icon"><i class="ph ph-linkedin-logo"></i></div>
+              <div class="cc-text">
+                <div class="cc-lbl">LinkedIn</div>
+                <div class="cc-val">d-keufack</div>
+              </div>
+              <i
+                class="ph ph-arrow-up-right"
+                style="
+                  margin-left: auto;
+                  color: var(--cyan);
+                  opacity: 0.5;
+                  font-size: 0.9rem;
+                  position: relative;
+                  z-index: 1;
+                "
+              ></i>
+            </a>
+            <a href="https://github.com/Denours" target="_blank" class="cc">
+              <div class="cc-icon"><i class="ph ph-github-logo"></i></div>
+              <div class="cc-text">
+                <div class="cc-lbl">GitHub</div>
+                <div class="cc-val">github.com/Denours</div>
+              </div>
+              <i
+                class="ph ph-arrow-up-right"
+                style="
+                  margin-left: auto;
+                  color: var(--cyan);
+                  opacity: 0.5;
+                  font-size: 0.9rem;
+                  position: relative;
+                  z-index: 1;
+                "
+              ></i>
+            </a>
+            <a href="https://wa.me/237683802425" target="_blank" class="cc">
+              <div class="cc-icon"><i class="ph ph-whatsapp-logo"></i></div>
+              <div class="cc-text">
+                <div class="cc-lbl">WhatsApp</div>
+                <div class="cc-val">+237 6 83 80 24 25</div>
+              </div>
+              <i
+                class="ph ph-arrow-up-right"
+                style="
+                  margin-left: auto;
+                  color: var(--cyan);
+                  opacity: 0.5;
+                  font-size: 0.9rem;
+                  position: relative;
+                  z-index: 1;
+                "
+              ></i>
+            </a>
+            <a
+              href="https://web.facebook.com/profile.php?id=61579742660484"
+              target="_blank"
+              class="cc"
+            >
+              <div class="cc-icon"><i class="ph ph-facebook-logo"></i></div>
+              <div class="cc-text">
+                <div class="cc-lbl">Facebook</div>
+                <div class="cc-val">Denis Keufack</div>
+              </div>
+              <i
+                class="ph ph-arrow-up-right"
+                style="
+                  margin-left: auto;
+                  color: var(--cyan);
+                  opacity: 0.5;
+                  font-size: 0.9rem;
+                  position: relative;
+                  z-index: 1;
+                "
+              ></i>
+            </a>
+          </div>
+        </div>
+        <div class="rv d2">
+          <div class="cform">
+            <div class="fg">
+              <label for="name"><i class="ph ph-user"></i>Votre nom</label>
+              <input
+                id="name"
+                autocomplete="name"
+                type="text"
+                placeholder="Keufack Denis"
+              />
+            </div>
+            <div class="fg">
+              <label for="em"><i class="ph ph-envelope-simple"></i>Email</label>
+              <input id="em" type="email" placeholder="keufack@exemple.com" />
+            </div>
+            <div class="fg">
+              <label for="speech-proj"
+                ><i class="ph ph-chat-text"></i>Message</label
+              >
+              <textarea
+                id="speech-proj"
+                placeholder="Parlez-moi de votre projet ou opportunité..."
+              ></textarea>
+            </div>
+            <button class="fsend" onclick="sendForm(this)">
+              <i class="ph ph-paper-plane-tilt"></i>
+              <span>Envoyer</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="ft-brand">D<span>.</span>Keufack</div>
+      <div class="ft-copy">© 2026 Denis Keufack — Tous droits réservés</div>
+      <div class="ft-soc">
+        <a href="https://github.com/Denours" target="_blank" class="fs"
+          ><i class="ph ph-github-logo"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/d-keufack"
+          target="_blank"
+          class="fs"
+          ><i class="ph ph-linkedin-logo"></i
+        ></a>
+        <a href="https://wa.me/237683802425" target="_blank" class="fs"
+          ><i class="ph ph-whatsapp-logo"></i
+        ></a>
+        <a
+          href="https://web.facebook.com/profile.php?id=61579742660484"
+          target="_blank"
+          class="fs"
+          ><i class="ph ph-facebook-logo"></i
+        ></a>
+      </div>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
