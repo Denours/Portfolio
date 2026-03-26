@@ -939,7 +939,7 @@ nav.stuck {
   color: var(--white2);
   line-height: 1.7;
   margin-top: 0.4rem;
-  max-width: 860px;
+  max-width: 660px;
 }
 .pj-tags {
   display: flex;
