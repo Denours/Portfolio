@@ -620,7 +620,7 @@ nav.stuck {
 .ac-avatar {
   width: 100px;
   height: 120px;
-  border-radius: 50%;
+  border-radius: 10%;
   background: linear-gradient(135deg, var(--bg4), var(--teal));
   border: 2px solid rgba(0, 229, 200, 0.3);
   display: flex;
