@@ -88,6 +88,7 @@ const projs = [
     desc: "Application web dédiée à la valorisation et la mise en visibilité des talents camerounais dans divers secteurs d'activité. Une plateforme de découverte et de mise en réseau des compétences locales.",
     tags: ["Vue.js", "TailwindCSS", "Node.js", "MongoDB", "REST API"],
     gh: "https://github.com/Denours/CamerTalents.git",
+    vp: "https://camer-talents.vercel.app",
   },
   {
     n: "02",
@@ -95,6 +96,7 @@ const projs = [
     desc: "Application frontend de réservation de trajets au Cameroun. Interface moderne et intuitive conçue pour faciliter la mise en relation entre conducteurs et passagers sur les routes camerounaises.",
     tags: ["HTML5", "CSS3", "Angular", "TailwindCSS"],
     gh: "https://github.com/Denours/lecoride.git",
+    vp: "https://github.com/Denours/lecoride.git",
   },
   {
     n: "03",
@@ -102,6 +104,7 @@ const projs = [
     desc: "Landing page responsive d'un site de réservation de voyages touristiques. Design immersif avec animations fluides pour inspirer l'aventure et la découverte.",
     tags: ["HTML5", "CSS3", "JavaScript"],
     gh: "https://github.com/Denours/Responsive-LUMINA-Travel.git",
+    vp: "https://github.com/Denours/Responsive-LUMINA-Travel.git",
   },
 ];
 const pl = document.getElementById("projList");
@@ -116,7 +119,7 @@ projs.forEach((p) => {
         </div>
         <div class="pj-actions">
           <a href="${p.gh}" target="_blank" class="pj-btn" title="GitHub"><i class="ph ph-github-logo"></i></a>
-          <a href="${p.gh}" target="_blank" class="pj-btn" title="Voir"><i class="ph ph-arrow-square-out"></i></a>
+          <a href="${p.vp}" target="_blank" class="pj-btn" title="Voir"><i class="ph ph-arrow-square-out"></i></a>
         </div>
       </div>
       <div class="pj-desc" style="margin-top:1rem">${p.desc}</div>
