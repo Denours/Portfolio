@@ -94,7 +94,7 @@ const projs = [
     n: "02",
     title: "Panto",
     desc: "Landing page d'un site web de fournitures de décoration intérieure.",
-    tags: ["HTML5", "CSS3", "Angular", "TailwindCSS"],
+    tags: ["HTML5", "CSS3", "ReactJS"],
     gh: "https://github.com/Denours/Code-maquettePanto",
     vp: "https://github.com/Denours/Code-maquettePanto",
   },
