@@ -106,6 +106,14 @@ const projs = [
     gh: "https://github.com/Denours/Responsive-LUMINA-Travel.git",
     vp: "https://github.com/Denours/Responsive-LUMINA-Travel.git",
   },
+  {
+    n: "04",
+    title: "Espace Formateur",
+    desc: "Dashboard minimal de gestion d'un espace de formation.",
+    tags: ["HTML5", "CSS3", "TypeScript", "Vue.js 3", "TailwindCSS"],
+    gh: "https://github.com/Denours/Espace-formateur-Vue.js",
+    vp: "https://github.com/Denours/Espace-formateur-Vue.js",
+  },
 ];
 const pl = document.getElementById("projList");
 projs.forEach((p) => {
