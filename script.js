@@ -92,11 +92,11 @@ const projs = [
   },
   {
     n: "02",
-    title: "LeCoride",
-    desc: "Application frontend de réservation de trajets au Cameroun. Interface moderne et intuitive conçue pour faciliter la mise en relation entre conducteurs et passagers sur les routes camerounaises.",
+    title: "Panto",
+    desc: "Landing page d'un site web de fournitures de décoration intérieure.",
     tags: ["HTML5", "CSS3", "Angular", "TailwindCSS"],
-    gh: "https://github.com/Denours/lecoride.git",
-    vp: "https://github.com/Denours/lecoride.git",
+    gh: "https://github.com/Denours/Code-maquettePanto",
+    vp: "https://github.com/Denours/Code-maquettePanto",
   },
   {
     n: "03",
